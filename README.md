@@ -26,6 +26,8 @@ Ultrasonic ranging module
 
 Wheel encoders
 
+![Ultrasonic](ultrasonic-sensor.jpg)
+
 Microcontroller
 ---------------
 
