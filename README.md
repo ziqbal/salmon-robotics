@@ -1,10 +1,10 @@
 # Salmon Robotics
 
-Entry for the 1ST PANHELLENIC OPEN ROBOTICS COMPETITION.
+Entry for the [1ST PANHELLENIC OPEN ROBOTICS COMPETITION](https://robotics.ellak.gr/).
 
 A 2 wheeled robot programmed via Scratch.
 
-Robot hardware consists of an Arduino based microcontroller, wireless communications, motor driver, motors, wheel encoders, proximity senosor, visual and audio indicators, power management.
+Robot hardware consists of an Arduino based microcontroller, wireless communications, motor driver, motors, wheel encoders, proximity senosor, visual/audio indicators and power management.
 
 ![Chassis](robot-2.jpg)
 
