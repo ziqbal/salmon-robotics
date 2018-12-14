@@ -8,7 +8,6 @@ Robot hardware consists of an Arduino based microcontroller, wireless communicat
 
 ![Chassis](robot-chassis.jpg)
 
-
 Output Control
 --------------
 
@@ -26,6 +25,8 @@ Input Sensors
 Ultrasonic ranging module
 
 Wheel encoders
+
+![Chassis](robot-1.jpg)
 
 Arduino/Scratch Bridge
 ----------------------
