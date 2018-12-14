@@ -1,2 +1,3 @@
-# salmon-robotics
+# Salmon Robotics
 
+Entry for the 1ST PANHELLENIC OPEN ROBOTICS COMPETITION.
