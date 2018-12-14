@@ -33,6 +33,8 @@ Arduino/Scratch Bridge
 
 A Raspberry Pi is used as a bridge for the communications between the robot and Scratch instances on multiple computers.
 
+![Raspberry Pi](raspberrypi.jpg)
+
 Using Scratch in Mesh mode, multiple users can interact and program the robot.
 
-![Raspberry Pi](raspberrypi.jpg)
+![Scratch](scratch.jpg)
