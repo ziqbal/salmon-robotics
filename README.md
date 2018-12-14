@@ -6,7 +6,7 @@ A 2 wheeled robot programmed via Scratch.
 
 Robot hardware consists of an Arduino based microcontroller, wireless communications, motor driver, motors, wheel encoders, proximity senosor, visual and audio indicators, power management.
 
-![Chassis](robot-chassis.jpg)
+![Chassis](robot-2.jpg)
 
 Output Control
 --------------
@@ -26,10 +26,10 @@ Ultrasonic ranging module
 
 Wheel encoders
 
-![Chassis](robot-2.jpg)
+![Arduino](arduino.jpg)
 
-Arduino/Scratch Bridge
-----------------------
+Raspberry Pi Bridge
+-------------------
 
 A Raspberry Pi is used as a bridge for the communications between the robot and Scratch instances on multiple computers.
 
