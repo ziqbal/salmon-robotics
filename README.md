@@ -28,5 +28,6 @@ A Raspberry Pi is used as a bridge for the communications between the robot and 
 
 Using Scratch in Mesh mode, multiple users can interact and program the robot.
 
-
+Arduino/Scratch Bridge
+----------------------
 
