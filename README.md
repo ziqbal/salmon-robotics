@@ -26,7 +26,7 @@ Ultrasonic ranging module
 
 Wheel encoders
 
-![Chassis](robot-1.jpg)
+![Chassis](robot-2.jpg)
 
 Arduino/Scratch Bridge
 ----------------------
