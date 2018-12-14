@@ -6,6 +6,9 @@ A 2 wheeled robot programmed via Scratch.
 
 Robot hardware consists of an Arduino based microcontroller, wireless communications, motor driver, motors, wheel encoders, proximity senosor, visual and audio indicators, power management.
 
+![Chassis](robot-chassis.jpg)
+
+
 Output Control
 --------------
 
