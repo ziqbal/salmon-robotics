@@ -10,6 +10,7 @@ The main hardware components are:
 * [Encoders](#Encoder-Pair-Kit)
 * [Wheels](#wheels)
 * [Power Source](#power)
+* [Misc](#misc)
 
 
 ![Main Image](images/main.jpg)
@@ -107,5 +108,7 @@ Speed around 420RPM.
 [TOP](#mighty-mouse)
 
 
+## Misc
 
+Motor brackets, switches, connectors, chassis, prototyping board, solder, wires,etc.
 
