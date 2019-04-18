@@ -15,6 +15,7 @@ The main hardware components are:
 
 
 ## ESP32
+
 ESP32 microcontroller is a low cost, low power system on a chip with integrated Wi-Fi.
 
 ![ESP32](images/esp32.jpg)
@@ -25,3 +26,4 @@ ESP32 microcontroller is a low cost, low power system on a chip with integrated 
 
 
 
+[TOP](#mighty-mouse)
