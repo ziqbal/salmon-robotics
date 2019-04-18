@@ -3,7 +3,7 @@
 The main hardware components are:
 
 * [ESP32 microcontroller](#esp32)
-* [Adafruit VL53L0X Time of Flight Distance Sensor]()
+* [Adafruit VL53L0X Time of Flight Distance Sensor](#Adafruit-VL53L0X)
 * Motor Driver
 * Voltage Regulator
 * Motors
