@@ -10,6 +10,7 @@ The main hardware components are:
 * [Motors](#Micro-Metal-Gearmotors)
 * [Encoders](#Encoder-Pair-Kit)
 * [Wheels](#wheels)
+* [Ball Castors](#ball-castors)
 * [Power Source](#power)
 * [Misc](#misc)
 
