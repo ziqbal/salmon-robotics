@@ -7,9 +7,9 @@ The main hardware components are:
 * [TB6612FNG Dual Motor Driver Carrier](#TB6612FNG-Dual-Motor-Driver-Carrier)
 * [Voltage Regulator](#Pololu-Voltage-Regulator)
 * [Motors](#Micro-Metal-Gearmotors)
-* Encoders
-* Wheels
-* Power Source
+* [Encoders](#Encoder-Pair-Kit)
+* [Wheels](#wheels)
+* [Power Source](#power)
 
 
 ![Main Image](images/main.jpg)
@@ -76,7 +76,7 @@ Speed around 420RPM.
 
 [TOP](#mighty-mouse)
 
-## Optical Encoder Pair Kit for Micro Metal Gearmotors 
+## Encoder Pair Kit
 
 ![Image](images/encoders.jpg)
 
@@ -85,4 +85,27 @@ Speed around 420RPM.
 [Shop](https://grobotronics.com/magnetic-encoder-pair-kit-12-cpr-2.7-18v-hpcb-compatible.html)
 
 [TOP](#mighty-mouse)
+
+## Wheels
+
+![Image](images/wheels.jpg)
+
+[More Info](https://www.pololu.com/product/1425)
+
+[Shop](https://grobotronics.com/pololu-wheel-70x8mm-pair-black.html)
+
+[TOP](#mighty-mouse)
+
+## Power
+
+![Image](images/power.jpg)
+
+[More Info](https://grobotronics.com/3x-with-wires.html)
+
+[Shop](https://grobotronics.com/3x-with-wires.html)
+
+[TOP](#mighty-mouse)
+
+
+
 
