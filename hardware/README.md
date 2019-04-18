@@ -5,8 +5,8 @@ The main hardware components are:
 * [ESP32 microcontroller](#esp32)
 * [Adafruit VL53L0X Time of Flight Distance Sensor](#Adafruit-VL53L0X)
 * [TB6612FNG Dual Motor Driver Carrier](#TB6612FNG-Dual-Motor-Driver-Carrier)
-* [Voltage Regulator](#Pololu-DC-DC-Converter-Step-Up-5V-1.4A)
-* [Motors](Micro-Metal-Gearmotors)
+* [Voltage Regulator](#Pololu-Voltage-Regulator)
+* [Motors](#Micro-Metal-Gearmotors)
 * Encoders
 * Wheels
 * Power Source
@@ -51,11 +51,11 @@ Motor driver which can independently control two bidirectional DC motors.
 
 [TOP](#mighty-mouse)
 
-## Pololu DC-DC Converter Step-Up 5V 1.4A 
+## Pololu Voltage Regulator 
 
 Voltage regulator to pump up the power to 5V.
 
-![Image](images/TB6612FNG.jpg)
+![Image](images/voltageregulator.jpg)
 
 [More Info](https://www.pololu.com/product/2562/)
 
