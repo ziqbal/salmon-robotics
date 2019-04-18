@@ -4,6 +4,7 @@ The main hardware components are:
 
 * [ESP32 microcontroller](#esp32)
 * [Adafruit VL53L0X Time of Flight Distance Sensor](#Adafruit-VL53L0X)
+* [Gyroscope](#Gyroscope)
 * [TB6612FNG Dual Motor Driver Carrier](#TB6612FNG-Dual-Motor-Driver-Carrier)
 * [Voltage Regulator](#Pololu-Voltage-Regulator)
 * [Motors](#Micro-Metal-Gearmotors)
@@ -39,6 +40,17 @@ The Adafruit VL53L0X Time of Flight Micro-LIDAR Distance Sensor Breakout is a di
 [Shop](https://grobotronics.com/adafruit-vl53l0x-time-of-flight-distance-sensor-30-to-1000mm.html)
 
 [TOP](#mighty-mouse)
+
+## Gyroscope 
+
+![Image](images/gyroscope.jpg)
+
+[More Info](https://www.invensense.com/products/motion-tracking/6-axis/mpu-6050/)
+
+[Shop](https://grobotronics.com/gy-521-mpu6050-3-axis-gyroscope-and-accelerometer-imu.html)
+
+[TOP](#mighty-mouse)
+
 
 ## TB6612FNG Dual Motor Driver Carrier 
 
@@ -106,7 +118,6 @@ Speed around 420RPM.
 [Shop](https://grobotronics.com/3x-with-wires.html)
 
 [TOP](#mighty-mouse)
-
 
 ## Misc
 
