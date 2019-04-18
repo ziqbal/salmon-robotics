@@ -1,5 +1,16 @@
 # Mighty Mouse
 
+The main build components are:
+
+* ESP32 microcontroller
+* Motor Driver
+* Voltage Regulator
+* Motors
+* Encoders
+* Wheels
+* Power Source
+
+
 ![Main Image](images/main.jpg)
 
 
