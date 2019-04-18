@@ -1,8 +1,8 @@
 # Mighty Mouse
 
-The main build components are:
+The main hardware components are:
 
-* ESP32 microcontroller
+* [ESP32 microcontroller](#esp)
 * Motor Driver
 * Voltage Regulator
 * Motors
