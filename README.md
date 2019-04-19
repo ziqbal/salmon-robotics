@@ -6,7 +6,7 @@ Entry for the [1ST PANHELLENIC OPEN ROBOTICS COMPETITION](https://robotics.ellak
 
 (Click image above to watch demo video)
 
-A 2 wheeled robot programmed via Scratch.
+A 2 wheeled robot programmed via C++, Python, JavaScript and Scratch.
 
 Robot hardware consists of an Arduino compatible microcontroller, wireless communications, motor driver, motors, wheel encoders, proximity senosor, visual/audio indicators and power management.
 
