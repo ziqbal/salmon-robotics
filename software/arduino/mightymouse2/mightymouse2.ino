@@ -1,3 +1,26 @@
+// The MIT License (MIT)
+
+// Copyright (c) 2019 Zafar Iqbal
+
+// Permission is hereby granted, free of charge, to any person obtaining a copy
+// of this software and associated documentation files (the "Software"), to deal
+// in the Software without restriction, including without limitation the rights
+// to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+// copies of the Software, and to permit persons to whom the Software is
+// furnished to do so, subject to the following conditions:
+
+// The above copyright notice and this permission notice shall be included in all
+// copies or substantial portions of the Software.
+
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+// FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+// AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+// SOFTWARE.
+
+
 #include <WiFi.h>
 #include <ESPAsyncWebServer.h>
 #include <ESPmDNS.h>
@@ -727,8 +750,8 @@ void websocketserver_Loops( ) {
 
 ///////////////////////////////////////
 
-const char* websocketserver_ssid = "SID";
-const char* websocketserver_password =  "PASSWORD";
+const char* websocketserver_ssid = "_SID_";
+const char* websocketserver_password =  "_PASSWORD_";
  
 AsyncWebServer websocketserver_server( 80 ) ;
 AsyncWebSocket websocketserver_ws( "/ws" ) ;
@@ -803,13 +826,20 @@ void websocketserver_loop_( ) {
 
     //if( websocketserver_globalClient != NULL && websocketserver_globalClient->status( ) == WS_CONNECTED ) {
 
-      websocketserver_ws.printfAll( "%d,_,%d,%d,%.2f,%d" , clock_getTimeMillis( ) , encoder1_get( ) , encoder2_get( ) , imu_getz( ) , distance_get_range( ) ) ;
+    websocketserver_monitor_send( ) ;
+
       //websocketserver_globalclient->printf( "%d,_,%d,%d,%.2f,%d" , clock_getTimeMillis( ) , encoder1_get( ) , encoder2_get( ) , imu_getz( ) , distance_get_range( ) ) ;
       //websocketserver_ws.printfAll( "%d" , encoder1_get( ) ) ;
     
     //}
   
   }
+
+}
+
+void websocketserver_monitor_send( ) {
+
+  websocketserver_ws.printfAll( "%d,_,%d,%d,%.2f,%d" , clock_getTimeMillis( ) , encoder2_get( ) , encoder1_get( ) , imu_getz( ) , distance_get_range( ) ) ;
 
 }
 
@@ -2731,6 +2761,14 @@ bool wizard_incomingParse( char * buffer ) {
 
     if( total_parameters == 0 ) return( false ) ;
 
+
+
+    if( ( strcmp( "M" , arr[ 0 ] ) == 0 ) && ( total_parameters == 1 ) ) {
+      websocketserver_monitor_send( ) ;
+      return( true ) ;
+
+    }
+
     if( ( strcmp( "_monitor_on" , arr[ 0 ] ) == 0 ) && ( total_parameters == 1 ) ) {
 
       websocketserver_monitor = true ;
@@ -2754,6 +2792,8 @@ bool wizard_incomingParse( char * buffer ) {
       return(true);
 
     }
+
+
 
     if( ( strcmp( "O" , arr[ 0 ] ) == 0 ) && ( total_parameters == 1 ) ) {
 
@@ -2969,10 +3009,21 @@ void wizard_motion_scan_find_min( ) {
 
 void wizard_motion_turntominimum_init( ) {
 
-  motor1_set_power( -20 ) ;
-  motor1_start( ) ;
-  motor2_set_power( 20 ) ;
-  motor2_start( ) ;
+  if( wizard_map_distance_pointer < 180 ) {
+
+    motor1_set_power( -20 ) ;
+    motor1_start( ) ;
+    motor2_set_power( 20 ) ;
+    motor2_start( ) ;
+
+  } else {
+
+    motor1_set_power( 20 ) ;
+    motor1_start( ) ;
+    motor2_set_power( -20 ) ;
+    motor2_start( ) ;
+
+  }
 
   wizard_motion_z_start = imu_getz( ) ;
 
@@ -2980,10 +3031,20 @@ void wizard_motion_turntominimum_init( ) {
 
 bool wizard_motion_turntominimum_update( ) {
 
-  if( imu_getz( ) < ( wizard_motion_z_start + wizard_map_distance_pointer ) ) {
+  if( wizard_map_distance_pointer < 180 ) {
+    if( imu_getz( ) < ( wizard_motion_z_start + wizard_map_distance_pointer ) ) {
 
-    return( false ) ;
-  
+      return( false ) ;
+    
+    }
+  } else {
+
+    if( imu_getz( ) > (  wizard_motion_z_start  - (360-wizard_map_distance_pointer) ) ) {
+
+      return( false ) ;
+    
+    }
+
   }
 
   motor1_stop( ) ;
