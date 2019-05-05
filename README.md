@@ -1,6 +1,6 @@
-# Salmon Robotics - Mighty Mouse
+# Salmon-Robotics - Mighty Mouse (Robo-Car)
 
-Entry for the [1ST PANHELLENIC OPEN ROBOTICS COMPETITION](https://robotics.ellak.gr/).
+Για τον 1ο Πανελλήνιο Διαγωνισμό OPEN ROBOTICS (https://robotics.ellak.gr/).
 
 A 2 wheeled robot programmed via C++, Python, JavaScript and Scratch.
 
