@@ -1,5 +1,8 @@
 # Mighty Mouse
 
+[Parts List Robot](https://raw.githubusercontent.com/ziqbal/salmon-robotics/master/hardware/partslist-salmonrobotics-robo-car.pdf)
+[Parts List Maze Table](https://raw.githubusercontent.com/ziqbal/salmon-robotics/master/hardware/partslist-salmonrobotics-maze-table.pdf)
+
 The main hardware components are:
 
 * [ESP32 microcontroller](#esp32)
