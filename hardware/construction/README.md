@@ -1,3 +1,4 @@
+# Construction Overview
 
 ```
 led_pin = 16 
@@ -16,7 +17,7 @@ motor2_pin = 12
 motor2_in1_pin = 13 
 motor2_in2_pin = 14 
 
-IMU -> i2c ( pins 21,22 ) 
+IMU -> i2c ( pins 21 , 22 ) 
 
 VL53L0X -> i2c ( pins 21 , 22 )
 ```
