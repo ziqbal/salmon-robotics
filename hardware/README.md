@@ -1,8 +1,8 @@
 # Mighty Mouse
 
-[Parts List Robot PDF](https://raw.githubusercontent.com/ziqbal/salmon-robotics/master/hardware/partslist-salmonrobotics-robo-car.pdf)
+[Parts List Robot PDF](https://github.com/ziqbal/salmon-robotics/blob/master/hardware/partslist-salmonrobotics-robo-car.pdf)
 
-[Parts List Maze Table PDF](https://raw.githubusercontent.com/ziqbal/salmon-robotics/master/hardware/partslist-salmonrobotics-maze-table.pdf)
+[Parts List Maze Table PDF](https://github.com/ziqbal/salmon-robotics/blob/master/hardware/partslist-salmonrobotics-maze-table.pdf)
 
 The main hardware components are:
 
