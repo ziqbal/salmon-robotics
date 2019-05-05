@@ -8,7 +8,11 @@ A 2 wheeled robot programmed via C++, Python, JavaScript and Scratch.
 
 Robot hardware consists of an Arduino compatible microcontroller, wireless communications, motor driver, motors, wheel encoders, proximity senosor, visual/audio indicators and power management.
 
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/3aY7d4Hk-YI/0.jpg)](http://www.youtube.com/watch?v=3aY7d4Hk-YI "Salmon Robotics - Mighty Mouse 2019/04")
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/69kufSKBoBE/0.jpg)](http://www.youtube.com/watch?v=69kufSKBoBE "Salmon Robotics - Mighty Mouse")
+
+(Click image above to watch demo video)
+
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/3aY7d4Hk-YI/0.jpg)](http://www.youtube.com/watch?v=3aY7d4Hk-YI "Salmon Robotics - Mighty Mouse Video 1")
 
 (Click image above to watch demo video)
 
