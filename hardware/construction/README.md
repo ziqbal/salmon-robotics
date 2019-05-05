@@ -8,7 +8,6 @@ encoder1_b_pin = 32
 encoder2_a_pin = 35 
 encoder2_b_pin = 34 
 
-
 motor1_pin = 25 
 motor1_in2_pin = 27 
 motor1_in1_pin = 26 
