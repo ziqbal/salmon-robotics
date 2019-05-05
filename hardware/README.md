@@ -13,6 +13,7 @@ The main hardware components are:
 * [Ball Castors](#ball-castors)
 * [Power Source](#power)
 * [Misc](#misc)
+* [Parts List PDFs](#parts-list)
 
 
 ![Main Image](images/main.jpg)
