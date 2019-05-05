@@ -17,3 +17,6 @@ Robot hardware consists of an Arduino compatible microcontroller, wireless commu
 
 (Click image above to watch demo video)
 
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/_ED90WGzHCc/0.jpg)](http://www.youtube.com/watch?v=_ED90WGzHCc "Salmon Robotics - Mighty Mouse Video 3")
+
+(Click image above to watch demo video)
