@@ -8,7 +8,7 @@ A 2 wheeled robot programmed via C++, Python, JavaScript and Scratch.
 
 Το υλισμικό του Robo-Car αποτελείται απο ένα microcontroller συμβατό με Arduino, ασύρματη επικοινωνία, motor driver, motors, wheel encoders, αισθητήρα απόστασης, διεύθυνσης (γυροσκόπιο), λυχνίες, μπίπ και power regulators.
 
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/69kufSKBoBE/0.jpg)](http://www.youtube.com/watch?v=69kufSKBoBE "Salmon Robotics - Mighty Mouse")
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/69kufSKBoBE/0.jpg)](https://youtu.be/C9S39mXTPCg "Salmon Robotics - Mighty Mouse")
 
 (Click στην εικόνα για demo video)
 
