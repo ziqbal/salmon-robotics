@@ -83,15 +83,35 @@ sc = scratch.Scratch( )
 
 def listen( ) :
 
-  try :
+  while True:
+    try :
 
-    yield sc.receive( )
+      yield sc.receive( )
 
-  except scratch.ScratchError :
-    
-    raise StopIteration
+    except scratch.ScratchError :
+      
+      raise StopIteration
 
 ##############################################################################
+
+
+from threading import Thread
+
+def myfunc(i):
+  global sc
+  while True:
+    print(".")
+    if(not sc.connected):
+      print("exit")
+      os.kill(os.getpid(), signal.SIGINT)
+      return
+    time.sleep(3)
+
+t = Thread(target=myfunc, args=(0,))
+t.daemon = True
+t.start()
+
+###
 
 flag_sensor_update = True
 
@@ -195,3 +215,4 @@ while ws.sock.connected :
       continue
 
     time.sleep( 0.01 )
+  time.sleep( 0.01 )
