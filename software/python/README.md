@@ -1,6 +1,15 @@
 
 # Sample programs
 
+Please install the following python dependencies:
+
+`sudo apt-get install python-pip`
+
+`pip install websocket`
+
+`pip install scratchpy`
+
+
 ## Scratch Proxy/Bridge
 
 Example program to create proxy/bridge between the robot and Scratch 1.4 with Mesh Mode Enabled.
